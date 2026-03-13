@@ -75,17 +75,25 @@ The project focuses on:
 
 # 📸 Screenshots
 
-## Home Section
+## Mission Section
 
-![Home](docs/PixelShadows_Studios_Preview.png)
+![Mission](docs/mission.png)
 
 ## Games Section
 
-![Games](./resources/images/games.png)
+![Games](docs/games.png)
+
+## Team Section
+
+![Team](docs/team.png)
+
+## News Section
+
+![News](docs/news.png)
 
 ## Mobile Layout
 
-![Mobile](./resources/images/mobile.png)
+![Mobile](docs/mobile.png)
 
 ---
 
@@ -94,20 +102,26 @@ The project focuses on:
 ```
 shadowpixel-studios
 │
-├── index.html
+├── docs
+│   ├── games.png
+│   ├── mission.png
+│   ├── mobile.png
+│   ├── news.png
+│   ├── PixelShadows_Studios.png
+│   └── team.png
 │
 ├── resources
 │   ├── css
 │   │   └── styles.css
 │   │
-│   └── images
-│       ├── ShadowPixel_logo.png
-│       ├── hero-background.png
-│       ├── preview.png
-│       └── screenshots
+│   ├── games
+│   ├── images
+│   ├── team
+│   └── videos
 │
+├── favicon.ico
+├── index.html
 └── README.md
-```
 
 ---
 
