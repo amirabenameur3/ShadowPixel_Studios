@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./resources/images/preview.png" width="900" alt="ShadowPixel Studios preview">
+  <img src="docs/PixelShadows_Studios_Preview.png" width="900" alt="ShadowPixel Studios preview">
 </p>
 
 <h1 align="center">🎮 ShadowPixel Studios</h1>
@@ -25,10 +25,12 @@ A fictional game studio website designed and developed <b>from scratch</b> as a 
 
 # 🚀 Live Demo
 
-*(Add your GitHub Pages link after deployment)*
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=github)](https://amirabenameur3.github.io/PixelShadows_Studios/)
+
+![PixelShadow Studios Preview](docs/PixelShadows_Studios_Preview.png)
 
 ```
-https://amirabenameur3.github.io/shadowpixel-studios
+https://amirabenameur3.github.io/PixelShadows_Studios/
 ```
 
 ---
@@ -75,7 +77,7 @@ The project focuses on:
 
 ## Home Section
 
-![Home](./resources/images/home.png)
+![Home](docs/PixelShadows_Studios_Preview.png)
 
 ## Games Section
 
@@ -84,8 +86,6 @@ The project focuses on:
 ## Mobile Layout
 
 ![Mobile](./resources/images/mobile.png)
-
-*(Optional – add these screenshots later if you want)*
 
 ---
 
