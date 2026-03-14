@@ -16,8 +16,8 @@ A fictional game studio website designed and developed <b>from scratch</b> as a 
 ![GitHub](https://img.shields.io/badge/GitHub-Project-181717?logo=github)
 ![Status](https://img.shields.io/badge/Status-Portfolio%20Project-purple)
 
-![Repo Size](https://img.shields.io/github/repo-size/amirabenameur3/shadowpixel-studios)
-![Last Commit](https://img.shields.io/github/last-commit/amirabenameur3/shadowpixel-studios)
+![Repo Size](https://img.shields.io/github/repo-size/amirabenameur3/PixelShadows_Studios)
+![Last Commit](https://img.shields.io/github/last-commit/amirabenameur3/PixelShadows_Studios)
 
 </p>
 
@@ -122,7 +122,7 @@ shadowpixel-studios
 ├── favicon.ico
 ├── index.html
 └── README.md
----
+```
 
 ---
 
