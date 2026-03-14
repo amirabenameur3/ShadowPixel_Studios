@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/PixelShadows_Studio.png" width="900" alt="ShadowPixel Studios preview">
+  <img src="./docs/PixelShadows_Studios_Preview.png" width="900" alt="ShadowPixel Studios preview">
 </p>
 
 <h1 align="center">🎮 ShadowPixel Studios</h1>
@@ -85,7 +85,7 @@ This project focuses on:
 
 ### Home Page
 <p align="center">
-  <img src="./docs/PixelShadows_Studio.png" width="850" alt="Home Page Screenshot">
+  <img src="./docs/PixelShadows_Studios_Preview.png" width="850" alt="Home Page Screenshot">
 </p>
 
 ### Mission Section
