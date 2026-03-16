@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <a href="https://amirabenameur3.github.io/PixelShadows_Studios/"><b>🌐 View Live Website</b></a>
+  <a href="https://amirabenameur3.github.io/ShadowPixel_Studios/"><b>🌐 View Live Website</b></a>
 </p>
 
 ---
@@ -177,7 +177,7 @@ PhD Researcher in Structural & Transportation Engineering
 Front-End Development Enthusiast
 
 GitHub:  
-`https://github.com/amirabenameur3`
+https://github.com/amirabenameur3
 
 ---
 
