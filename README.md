@@ -85,7 +85,7 @@ This project focuses on:
 
 ### Home Page
 <p align="center">
-  <img src="./docs/PixelShadows_Studios_Preview.png" width="850" alt="Home Page Screenshot">
+  <img src="./docs/Shadow Pixel_Studios_Preview.png" width="850" alt="Home Page Screenshot">
 </p>
 
 ### Mission Section
@@ -125,7 +125,7 @@ PixelShadows_Studios
 │   ├── mission.png
 │   ├── mobile.png
 │   ├── news.png
-│   ├── PixelShadows_Studios.png
+│   ├── ShadowPixel_Studios.png
 │   └── team.png
 │
 ├── resources
