@@ -152,8 +152,6 @@ This project was developed using:
 
 ## 📂 Project Structure
 
----
-
 ```
 PixelShadows_Studios
 │
