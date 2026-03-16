@@ -85,7 +85,7 @@ This project focuses on:
 
 ### Home Page
 <p align="center">
-  <img src="./docs/Shadow Pixel_Studios_Preview.png" width="850" alt="Home Page Screenshot">
+  <img src="./docs/ShadowPixel_Studios_Preview.png" width="850" alt="Home Page Screenshot">
 </p>
 
 ### Mission Section
