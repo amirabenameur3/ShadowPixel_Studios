@@ -5,25 +5,27 @@
 <h1 align="center">🎮 ShadowPixel Studios</h1>
 
 <p align="center">
-  A fictional game studio website designed and developed <b>from scratch</b> as a front-end portfolio project.
+A fictional game studio website designed and developed <b>from scratch</b> as a front-end portfolio project.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-Structure-E34F26?logo=html5&logoColor=white" alt="HTML5 Badge">
-  <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?logo=css3&logoColor=white" alt="CSS3 Badge">
-  <img src="https://img.shields.io/badge/Flexbox-Layout-blue" alt="Flexbox Badge">
-  <img src="https://img.shields.io/badge/Responsive-Design-38bdf8" alt="Responsive Badge">
-  <img src="https://img.shields.io/badge/GitHub-Project-181717?logo=github" alt="GitHub Badge">
-  <img src="https://img.shields.io/badge/Status-Portfolio%20Project-purple" alt="Status Badge">
+  <img src="https://img.shields.io/badge/HTML5-Structure-E34F26?logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/Flexbox-Layout-blue">
+  <img src="https://img.shields.io/badge/Responsive-Design-38bdf8">
+  <img src="https://img.shields.io/badge/GitHub-Project-181717?logo=github">
+  <img src="https://img.shields.io/badge/Status-Portfolio%20Project-purple">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/amirabenameur3/PixelShadows_Studios" alt="Repo Size">
-  <img src="https://img.shields.io/github/last-commit/amirabenameur3/PixelShadows_Studios" alt="Last Commit">
+  <img src="https://img.shields.io/github/repo-size/amirabenameur3/PixelShadows_Studios">
+  <img src="https://img.shields.io/github/last-commit/amirabenameur3/PixelShadows_Studios">
 </p>
 
 <p align="center">
-  <a href="https://amirabenameur3.github.io/ShadowPixel_Studios/"><b>🌐 View Live Website</b></a>
+  <a href="https://amirabenameur3.github.io/ShadowPixel_Studios/">
+  <img src="https://img.shields.io/badge/🌐-Live%20Demo-38bdf8?style=for-the-badge">
+  </a>
 </p>
 
 ---
@@ -31,11 +33,14 @@
 ## 📑 Table of Contents
 
 - [📖 About the Project](#-about-the-project)
+- [🌐 Live Demo](#-live-demo)
 - [✨ Features](#-features)
 - [🛠 Built With](#-built-with)
 - [📸 Screenshots](#-screenshots)
 - [📂 Project Structure](#-project-structure)
-- [🎯 Learning Objectives](#-learning-objectives)
+- [📱 Responsive Design](#-responsive-design)
+- [🚀 Deployment](#-deployment)
+- [🧠 What I Learned](#-what-i-learned)
 - [🚧 Future Improvements](#-future-improvements)
 - [👩‍💻 Author](#-author)
 - [📌 Disclaimer](#-disclaimer)
@@ -44,71 +49,101 @@
 
 ## 📖 About the Project
 
-**ShadowPixel Studios** is a fictional indie game studio website created as a front-end portfolio project.
+**ShadowPixel Studios** is a fictional indie game studio website created as a **front-end portfolio project**.
 
-The goal of this project was to design and develop a complete website from scratch, showcasing a game studio identity through sections such as the studio mission, games, team, and news.
+The goal of this project was to design and develop a complete website from scratch that simulates the online presence of a game development studio.
 
-This project focuses on:
+The website includes several sections commonly found on studio websites such as:
 
-- semantic HTML structure
-- responsive layout design
-- modern UI styling
-- clean project organization
-- front-end development practice with Flexbox and CSS
+- studio mission
+- featured games
+- team members
+- news updates
+
+This project focuses on practicing modern **front-end development techniques**, including semantic HTML structure, responsive layouts, and clean project organization.
+
+---
+
+## 🌐 Live Demo
+
+You can explore the live version of the website here:
+
+👉 https://amirabenameur3.github.io/ShadowPixel_Studios/
+
+The website is deployed using **GitHub Pages**.
 
 ---
 
 ## ✨ Features
 
-- 🎮 Hero section introducing the studio
-- 📖 Mission/About section presenting the studio vision
-- 🕹 Games showcase section
-- 👥 Team presentation section
-- 📰 News and updates section
-- 📱 Responsive design for different screen sizes
-- 🎨 Modern styling using CSS variables
-- ⚡ Lightweight static website structure
+- 🎮 **Hero section** introducing the studio
+- 📖 **Mission / About section** presenting the studio vision
+- 🕹 **Games showcase section**
+- 👥 **Team presentation section**
+- 📰 **News and updates section**
+- 📱 **Responsive design** for multiple screen sizes
+- 🎨 Modern styling using **CSS variables**
+- ⚡ Lightweight **static website structure**
 
 ---
 
 ## 🛠 Built With
 
+This project was developed using:
+
 - **HTML5**
 - **CSS3**
 - **Flexbox**
+- **CSS Grid**
 - **Responsive Design**
 - **Google Fonts**
+- **Git**
+- **GitHub**
+
+---
+
+## 🎬 Demo
+
+<p align="center">
+  <img src="./docs/demo.gif" width="900" alt="ShadowPixel Gaming Club demo">
+</p>
 
 ---
 
 ## 📸 Screenshots
 
 ### Home Page
+
 <p align="center">
   <img src="./docs/ShadowPixel_Studios_Preview.png" width="850" alt="Home Page Screenshot">
 </p>
 
 ### Mission Section
+
 <p align="center">
   <img src="./docs/mission.png" width="850" alt="Mission Section Screenshot">
 </p>
 
 ### Games Section
+
 <p align="center">
   <img src="./docs/games.png" width="850" alt="Games Section Screenshot">
 </p>
 
 ### Team Section
+
 <p align="center">
   <img src="./docs/team.png" width="850" alt="Team Section Screenshot">
 </p>
 
 ### News Section
+
 <p align="center">
   <img src="./docs/news.png" width="850" alt="News Section Screenshot">
 </p>
 
 ### Mobile Layout
+
 <p align="center">
   <img src="./docs/mobile.png" width="400" alt="Mobile Layout Screenshot">
 </p>
@@ -117,10 +152,11 @@ This project focuses on:
 
 ## 📂 Project Structure
 
-```text
+```
 PixelShadows_Studios
 │
 ├── docs
+│   ├── demo.gif
 │   ├── games.png
 │   ├── mission.png
 │   ├── mobile.png
@@ -143,29 +179,67 @@ PixelShadows_Studios
 
 ---
 
-## 🎯 Learning Objectives
+## 📱 Responsive Design
 
-This project helped practice:
+The website was designed to adapt to different screen sizes using responsive design techniques.
 
-- building a website entirely from scratch
-- structuring content using semantic HTML
-- creating layouts with Flexbox
-- implementing responsive design
-- organizing a real-world project folder structure
-- managing project files with Git and GitHub
+Main strategies used:
+
+- **Flexible layouts** built with Flexbox
+- **Relative units** such as `rem`, `%`, and `vw`
+- **Media queries** to adjust layout for smaller screens
+- Responsive images and scalable typography
+
+The layout automatically adapts for:
+
+- Desktop screens
+- Tablets
+- Mobile devices
+
+---
+
+## 🚀 Deployment
+
+The project is deployed using **GitHub Pages**.
+
+Steps used to deploy the website:
+
+1. Push the project to a GitHub repository
+2. Open the repository **Settings**
+3. Navigate to **Pages**
+4. Select the deployment branch (usually `main`)
+5. GitHub automatically publishes the website
+
+Live website:
+
+https://amirabenameur3.github.io/ShadowPixel_Studios/
+
+---
+
+## 🧠 What I Learned
+
+Through this project I improved my understanding of:
+
+- building a website **entirely from scratch**
+- structuring content using **semantic HTML**
+- designing layouts with **Flexbox**
+- implementing **responsive design techniques**
+- organizing a **real-world project folder structure**
+- managing version control with **Git and GitHub**
+- deploying a website using **GitHub Pages**
 
 ---
 
 ## 🚧 Future Improvements
 
-Possible future enhancements:
+Possible future enhancements include:
 
-- add JavaScript interactivity
-- implement a mobile hamburger navigation menu
-- add animations and transitions
-- include embedded game trailers
-- create a contact section or contact form
-- improve accessibility and keyboard navigation
+- adding **JavaScript interactivity**
+- implementing a **mobile hamburger navigation menu**
+- adding **animations and transitions**
+- embedding **game trailers or promotional videos**
+- creating a **contact form**
+- improving **accessibility and keyboard navigation**
 
 ---
 
@@ -176,7 +250,7 @@ Possible future enhancements:
 PhD Researcher in Structural & Transportation Engineering  
 Front-End Development Enthusiast
 
-GitHub:  
+GitHub  
 https://github.com/amirabenameur3
 
 ---
@@ -191,4 +265,4 @@ It does **not represent a real company or brand**.
 
 ## ⭐ If you like the project
 
-Give the repository a **star on GitHub** ⭐
+Consider giving the repository a **star on GitHub** ⭐
