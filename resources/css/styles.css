@@ -144,8 +144,8 @@ header {
     position: relative;
     border-bottom: solid 1px var(--border-color);
     background: var(--bg-header);
-    backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
     box-shadow: var(--shadow-header);
 }
 
@@ -239,8 +239,8 @@ header nav a:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     background: var(--surface-glass-strong);
-    backdrop-filter: blur(1px);
     -webkit-backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
     border: 1px solid var(--border-soft);
     border-radius: 1rem;
     box-shadow: var(--shadow-soft);
@@ -627,7 +627,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        min-height: auto;
+        min-height: 0;
         padding: 0.5rem;
         gap: 0.5rem;
     }
