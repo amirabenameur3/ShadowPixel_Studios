@@ -147,11 +147,135 @@ a:focus-visible, button:focus-visible, .button:focus-visible {
     transform: translateY(0);
 }
 
+/* Privacy Policy, Terms of Service links and Press Kit */
+.privacy-content, .terms-content, .press-kit-content {
+    width: min(100% - 2rem, 60rem);
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.privacy-content h2, .terms-content h2, .press-kit-content h2 {
+    margin: 0 0 0.75rem;
+    font-size: clamp(1.4rem, 3vw, 2.1rem);
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    color: var(--text-primary);
+}
+
+.privacy-content p, .terms-content p, .press-kit-content p {
+    margin: 0;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.privacy-content ul, .terms-content ul, .press-kit-content ul {
+    margin: 0;
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 1.5rem;
+    color: var(--text-secondary);
+}
+
+.privacy-content li, .terms-content li, .press-kit-content li {
+    margin-bottom: 0.5rem;
+}
+
+.privacy-content ul li::marker, .terms-content ul li::marker, .press-kit-content ul li::marker {
+    color: var(--accent-purple);
+}
+
+.privacy-content .email a, .terms-content .email a, .press-kit-content .email a {
+    color: var(--accent-blue);
+    text-decoration: none;
+}
+
+.privacy-content .email a:hover, .terms-content .email a:hover, .press-kit-content .email a:hover {
+    text-decoration: underline;
+}
+
+.press-kit-content li strong  {
+    min-width: 60px;
+    display: inline-block;
+    color: var(--text-accent-soft);
+}
+
+.press-kit-content .game-entry {
+    padding: 1.25rem 1.25rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.75rem;
+    background: var(--surface-glass);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.press-kit-content .game-entry + .game-entry {
+    margin-top: 1rem;
+}
+
+.press-kit-content .game-entry h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: var(--text-primary);
+}
+
+.press-kit-content .game-entry p {
+    margin: 0;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.press-kit-content .game-entry:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-soft);
+}
+
+.press-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+}
+
+.press-gallery img {
+    width: 100%;
+    max-height: 140px;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    display: block;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.press-gallery figure {
+    margin: 0;
+    padding: 0.5rem;
+    min-height: 160px;
+    border-radius: 0.75rem;
+    background: var(--surface-glass);
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.press-gallery figure:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-soft);
+}
+
+.press-gallery figure:hover img {
+    transform: scale(1.05);
+}
+
 /* =========================
    Header
 ========================= */
 
-header {
+.site-header {
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -249,6 +373,44 @@ header nav {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+/* Privacy Policy, Terms of Service links and Press Kit */
+.subpage-header {
+    position: relative;
+    padding: 3.5rem 1rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid var(--border-color);
+    background: linear-gradient(
+        180deg,
+        rgba(15, 23, 42, 0.95),
+        rgba(15, 23, 42, 0.75)
+    );
+}
+
+.subpage-header .header-section {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.subpage-header h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    color: var(--text-primary);
+    text-shadow: 0 0 12px rgba(139, 92, 246, 0.25);
+}
+.subpage-header .last-updated {
+    margin: 0.75rem 0;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+.subpage-header p {
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    margin: 0.5rem 0;
+    line-height: 1.6;
+    color: var(--text-accent-soft);
 }
 
 /* =========================
@@ -626,6 +788,25 @@ footer {
     text-align: center;
     color: var(--text-muted);
     font-size: 0.95rem;
+}
+
+/* Privacy Policy, Terms of Service links and Press Kit */
+.subpage-footer {
+    margin-top: 3rem;
+    padding: 2rem 1rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.subpage-footer .footer-content {
+    max-width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subpage-footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
 }
 
 /* =========================
@@ -1034,6 +1215,23 @@ footer {
     .btn-secondary {
         min-height: 44px;
         padding: 0.75rem 1.2rem;
+    }
+
+    /* Press Kit page */
+    .press-gallery {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .press-gallery figure {
+        min-height: auto;
+        padding: 0.4rem;
+    }
+
+    .press-gallery img {
+        width: 100%;
+        height: auto;
+        max-height: none;
     }
 
     /* Footer */
