@@ -684,9 +684,27 @@ footer {
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
     scroll-behavior: smooth;
     scrollbar-width: thin;
-    scrollbar-color: var(--accent-purple) transparent;
+    scrollbar-color: var(--accent-purple) transparent; 
     transform: scale(0.96) translateY(20px);
     transition: transform 0.3s ease;
+}
+
+/* Chrome, Edge, Safari */
+.modal::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.modal::-webkit-scrollbar-thumb {
+    background: var(--accent-purple);
+    border-radius: 999px;
+}
+
+.modal::-webkit-scrollbar-thumb:hover {
+    background: #a784ff; /* optional lighter hover */
 }
 
 .modal-overlay.active .modal {
