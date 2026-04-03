@@ -20,7 +20,20 @@
         </a>
 
         <nav class="main-navigation" aria-label="Main navigation">
-            <ul>
+            <ul class="desktop-nav">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#games">Games</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#news">News</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button type="button" class="menu-button" aria-label="Open navigation menu" aria-expanded="false">
+              <span class="menu-icon">☰</span>
+              <span>Menu</span>
+            </button>
+            <ul class="mobile-nav">
               <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#games">Games</a></li>
@@ -37,6 +50,7 @@
 
       <!--Hero Section-->
       <section id="home" aria-label="Hero section">
+
         <div class="hero-content">
           <h1>ShadowPixel Studios</h1>
           <p>Creating immersive worlds where stories and players collide</p>
@@ -45,6 +59,7 @@
 
       <!--Mission Section-->
       <section id="about" aria-label="Mission section">
+
         <div class="mission-content">
           <h2>Our Mission</h2>
           <p>
@@ -65,41 +80,50 @@
         </div>
           
         <div class="games-section">
-          <article class="game-card" id="eclipse-realm">
-            <div class="image-container">
-              <img src="./resources/games/eclipse-realm.jpg" alt="Eclipse Realm game cover">
-            </div>
-            <h3>Eclipse Realm</h3>
-            <p class="description">A dark fantasy RPG set in a collapsing kingdom where ancient forces awaken and destiny hangs by a thread.</p>
-            <a href="#" class="button btn-secondary">View Game</a>
-          </article>
+          <div class="reveal">
+            <article class="game-card" id="eclipse-realm">
+              <div class="image-container">
+                <img src="./resources/games/Games-covers/eclipse-realm.jpg" alt="Eclipse Realm game cover">
+              </div>
+              <h3>Eclipse Realm</h3>
+              <p class="description">A dark fantasy RPG set in a collapsing kingdom where ancient forces awaken and destiny hangs by a thread.</p>
+              <a href="#" class="button btn-secondary" id="open-eclipse-modal">View Game</a>
+            </article>
+          </div>
           
-          <article class="game-card" id="neon-drift">
-            <div class="image-container">
-              <img src="./resources/games/neon-drift.jpg" alt="Neon Drift game cover">
-            </div>
-            <h3>Neon Drift</h3>
-            <p class="description">A high-speed racing game set in a neon-lit cyberpunk city where precision, speed, and daring drifts rule the streets.</p>
-            <a href="#" class="button btn-secondary">View Game</a>
-          </article>
-            
-          <article class="game-card" id="echoes-of-titan">
-            <div class="image-container">
-              <img src="./resources/games/echoes-of-titan.jpg" alt="Echoes of Titan game cover">
-            </div>
-            <h3>Echoes of Titan</h3>
-            <p class="description">A sci-fi exploration game set on a mysterious abandoned planet where ancient secrets and forgotten technology await discovery.</p>
-            <a href="#" class="button btn-secondary">View Game</a>
-          </article>
-            
-          <article class="game-card" id="forestbound">
-            <div class="image-container">
-              <img src="./resources/games/forestbound.jpg" alt="Forestbound game cover">
-            </div>
-            <h3>Forestbound</h3>
-            <p class="description">A cozy puzzle adventure set in an enchanted forest filled with hidden paths, magical creatures, and gentle mysteries.</p>
-            <a href="#" class="button btn-secondary">View Game</a>
-          </article>
+          <div class="reveal">
+            <article class="game-card" id="neon-drift">
+              <div class="image-container">
+                <img src="./resources/games/Games-covers/neon-drift.jpg" alt="Neon Drift game cover">
+              </div>
+              <h3>Neon Drift</h3>
+              <p class="description">A high-speed racing game set in a neon-lit cyberpunk city where precision, speed, and daring drifts rule the streets.</p>
+              <a href="#" class="button btn-secondary" id="open-neon-modal">View Game</a>
+            </article>
+          </div>
+          
+          <div class="reveal">
+            <article class="game-card" id="echoes-of-titan">
+              <div class="image-container">
+                <img src="./resources/games/Games-covers/echoes-of-titan.jpg" alt="Echoes of Titan game cover">
+              </div>
+              <h3>Echoes of Titan</h3>
+              <p class="description">A sci-fi exploration game set on a mysterious abandoned planet where ancient secrets and forgotten technology await discovery.</p>
+              <a href="#" class="button btn-secondary" id="open-echoes-modal">View Game</a>
+            </article>
+          </div>
+          
+          <div class="reveal">
+            <article class="game-card" id="forestbound">
+              <div class="image-container">
+                <img src="./resources/games/Games-covers/forestbound.jpg" alt="Forestbound game cover">
+              </div>
+              <h3>Forestbound</h3>
+              <p class="description">A cozy puzzle adventure set in an enchanted forest filled with hidden paths, magical creatures, and gentle mysteries.</p>
+              <a href="#" class="button btn-secondary" id="open-forestbound-modal">View Game</a>
+            </article>
+          </div>
+
         </div>
       </section>
 
@@ -112,41 +136,50 @@
         </div>
           
         <div class="team-section">
-          <article class="team-card">
-            <div class="image-container">
-              <img src="./resources/team/Lina-Moreau.jpg" alt="Lina Moreau, Creative Director">
-            </div>
-            <h3>Lina Moreau</h3>
-            <p class="role">Creative Director</p>
-            <p class="description">Leads the studio’s creative vision, shaping story concepts and crafting the worlds that define ShadowPixel Studios’ games.</p>
-          </article>
-            
-          <article class="team-card">
-            <div class="image-container">
-              <img src="./resources/team/Ethan-Park.jpg" alt="Ethan Park, Lead Game Developer">
-            </div>
-            <h3>Ethan Park</h3>
-            <p class="role">Lead Game Developer</p>
-            <p class="description">Designs and builds gameplay systems, bringing core mechanics and interactive experiences to life.</p>
-          </article>
-            
-          <article class="team-card">
-            <div class="image-container">
-              <img src="./resources/team/Sofia-Khan.jpg" alt="Sofia Khan, Art Director">
-            </div>
-            <h3>Sofia Khan</h3>
-            <p class="role">Art Director</p>
-            <p class="description">Shapes the visual identity of the studio through environments, characters, and art direction.</p>
-          </article>
-            
-          <article class="team-card">
-            <div class="image-container">
-              <img src="./resources/team/Noah-Bennett.jpg" alt="Noah Bennett, Sound Designer">
-            </div>
-            <h3>Noah Bennett</h3>
-            <p class="role">Sound Designer</p>
-            <p class="description">Composes music and designs soundscapes that enhance immersion and bring each game world to life.</p>
-          </article>
+          <div class="reveal">
+            <article class="team-card">
+              <div class="image-container">
+                <img src="./resources/team/Lina-Moreau.jpg" alt="Lina Moreau, Creative Director">
+              </div>
+              <h3>Lina Moreau</h3>
+              <p class="role">Creative Director</p>
+              <p class="description">Leads the studio’s creative vision, shaping story concepts and crafting the worlds that define ShadowPixel Studios’ games.</p>
+            </article>
+          </div>
+          
+          <div class="reveal">
+            <article class="team-card">
+              <div class="image-container">
+                <img src="./resources/team/Ethan-Park.jpg" alt="Ethan Park, Lead Game Developer">
+              </div>
+              <h3>Ethan Park</h3>
+              <p class="role">Lead Game Developer</p>
+              <p class="description">Designs and builds gameplay systems, bringing core mechanics and interactive experiences to life.</p>
+            </article>
+          </div>
+          
+          <div class="reveal">
+            <article class="team-card">
+              <div class="image-container">
+                <img src="./resources/team/Sofia-Khan.jpg" alt="Sofia Khan, Art Director">
+              </div>
+              <h3>Sofia Khan</h3>
+              <p class="role">Art Director</p>
+              <p class="description">Shapes the visual identity of the studio through environments, characters, and art direction.</p>
+            </article>
+          </div>
+          
+          <div class="reveal">
+            <article class="team-card">
+              <div class="image-container">
+                <img src="./resources/team/Noah-Bennett.jpg" alt="Noah Bennett, Sound Designer">
+              </div>
+              <h3>Noah Bennett</h3>
+              <p class="role">Sound Designer</p>
+              <p class="description">Composes music and designs soundscapes that enhance immersion and bring each game world to life.</p>
+            </article>
+          </div>
+
         </div>
       </section>
 
@@ -167,29 +200,35 @@
           </div>
           <h3>Eclipse Realm Gameplay Trailer Revealed</h3>
           <p class="description">Watch the first look at our upcoming dark fantasy RPG and explore the world of Eclipse Realm.</p>
-          <a href="#" class="button btn-secondary">Read More</a>
+          <a href="#" class="button btn-secondary" id="open-eclipse-realm-modal">Read More</a>
         </div>
 
         <div class="news-section">
-          <article class="news-card">
-            <div class="image-container">
-              <img src="./resources/games/update-neon-drift.jpg" alt="Neon Drift new poster">
-            </div>
-            <h3>Neon Drift Gameplay Update 1.2 Coming Soon</h3>
-            <p class="description">New tracks, improved drifting mechanics, and visual upgrades are coming in the latest update.</p>
-            <a href="#" class="button btn-secondary">Read More</a>
-          </article>
-            
-          <article class="news-card">
-            <div class="image-container">
-              <img src="./resources/games/Aetherfall.jpg" alt="Aetherfall promotional artwork">
-            </div>
-            <h3>Aetherfall</h3>
-            <p><strong>Genre:</strong> / Exploration / Story-Driven</p>
-            <p class="description">A story-driven adventure set in a mysterious world of floating islands where ancient ruins, 
+
+          <div class="reveal">
+            <article class="news-card">
+              <div class="image-container">
+                <img src="./resources/games/Games-covers/update-neon-drift.jpg" alt="Neon Drift new poster">
+              </div>
+              <h3>Neon Drift Gameplay Update 1.2 Coming Soon</h3>
+              <p class="description">New tracks, improved drifting mechanics, and visual upgrades are coming in the latest update.</p>
+              <a href="#" class="button btn-secondary" id="open-neon-drift-modal">Read More</a>
+            </article>
+          </div>
+          
+          <div class="reveal">
+            <article class="news-card">
+              <div class="image-container">
+                <img src="./resources/games/Games-covers/Aetherfall.jpg" alt="Aetherfall promotional artwork">
+              </div>
+              <h3>Aetherfall</h3>
+              <p><strong>Genre:</strong> / Exploration / Story-Driven</p>
+              <p class="description">A story-driven adventure set in a mysterious world of floating islands where ancient ruins, 
               lost civilizations, and hidden powers await discovery.</p>
-            <a href="#" class="button btn-secondary">Read More</a>
-          </article>
+              <a href="#" class="button btn-secondary" id="open-aetherfall-modal">Read More</a>
+            </article>
+          </div>
+
         </div>
       </section>
     </main>
@@ -276,6 +315,389 @@
 
       </div>
     </footer>
-    
+
+    <!-- ✅ MODALS Section:Games -->
+     <!--Eclipse Realm-->
+     <div class="modal-overlay" id="modal-eclipse-realm" role="dialog" aria-modal="true" aria-labelledby="modal-eclipse-title" tabindex="-1" hidden>
+      <div class="modal">
+        <button class="close-modal" aria-label="Close Eclipse Realm modal">&times;</button>
+
+        <div class="modal-content">
+          <h2 id="modal-eclipse-title">Eclipse Realm</h2>
+          <p class="modal-tagline">A dark fantasy RPG forged in shadow and fire.</p>
+
+          <div class="modal-overview">
+            <img src="./resources/games/Games-screenshots/Gothic-battles-eclipse-realm.jpg" alt="Gothic battles beneath a fiery eclipse in Eclipse Realm">
+          </div>
+
+          <div class="game-meta">
+            <p><strong>Genre:</strong> Action RPG / Dark Fantasy</p>
+            <p><strong>Platform:</strong> PC (Steam), PlayStation, Xbox</p>
+            <p><strong>Status:</strong> In Development</p>
+          </div>
+
+          <section class="modal-story">
+            <h3>Story</h3>
+            <p>In the final days of a dying kingdom, where the skies burn and the earth fractures beneath forgotten sins, 
+            a lone warrior emerges from the shadows—bound not by destiny, but by a haunting past.</p>
+            <p>Once a realm of light and prosperity, the capital now stands cursed, its towering spires swallowed by darkness and flame. Ancient forces, 
+            long sealed beneath the foundations of the world, have begun to stir once more, whispering through the ruins and corrupting everything they touch.</p>
+            <p>Drawn by visions that blur the line between memory and prophecy, you journey toward the heart of the fallen kingdom. Along the way, you will traverse shattered landscapes, 
+            abandoned strongholds, and lands where time itself seems broken.</p>
+            <p>But you are not alone.</p>
+            <p>Twisted creatures roam the ruins—once human, now consumed by the same power that threatens to engulf the world. 
+            Powerful entities guard the secrets of the past, each encounter pushing you closer to the truth… or deeper into madness.</p>
+            <p>Every choice you make carries weight.</p>
+            <p>Will you resist the darkness, or embrace it?</p>
+            <p>Will you restore what was lost, or let the world collapse into silence?</p>
+            <p>As the eclipse draws near, the fate of the realm will rest in your hands—and the line between hero and harbinger will begin to fade.</p>
+          </section>
+
+          <section class="modal-gameplay">
+            <h3>Gameplay / Core Mechanics</h3>
+            <ul class="gameplay-features">
+              <li>Real-time combat combining melee, magic, and tactical abilities</li>
+              <li>Character progression with skill trees and equipment upgrades</li>
+              <li>Exploration of interconnected regions with hidden paths and secrets</li>
+              <li>Choice-driven interactions that influence the world and narrative</li>
+            </ul>
+          </section>
+
+          <section class="modal-experience">
+            <h3>Player Experience</h3>
+            <p>You are a lone warrior navigating a kingdom on the brink of collapse. Every encounter tests your skill, every decision shapes your path, 
+              and every victory feels earned in a world that offers no mercy.</p>
+          </section>
+
+          <section class="modal-features">
+            <h3>Key Features</h3>
+            <ul class="key-features">
+              <li>Dark, immersive fantasy world</li>
+              <li>Deep combat system with multiple playstyles</li>
+              <li>Rich lore and environmental storytelling</li>
+              <li>Dynamic progression and meaningful choices</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+     </div>
+
+    <!--Neon Drift-->
+    <div class="modal-overlay" id="modal-neon-drift" role="dialog" aria-modal="true" aria-labelledby="modal-neon-drift-title" tabindex="-1" hidden>
+      <div class="modal">
+        <button class="close-modal" aria-label="Close modal">&times;</button>
+
+        <div class="modal-content">
+          <h2 id="modal-neon-drift-title">Neon Drift</h2>
+          <p class="modal-tagline">Control the drift. Own the night.</p>
+          
+          <div class="modal-overview">
+            <img src="./resources/games/Games-screenshots/Neon-drift-racing.jpg" alt="Neon Drift: Futuristic racing chaos in a neon-lit cityscape">
+          </div>
+          
+          <div class="game-meta">
+            <p><strong>Genre:</strong> Arcade Racing / Cyberpunk</p>
+            <p><strong>Platform:</strong> PC (Steam), PlayStation, Xbox</p>
+            <p><strong>Status:</strong> Released — Version 1.1</p>
+          </div>
+          
+          <section class="modal-story">
+            <h3>Story</h3>
+            <p>In a city where the night never fades and neon lights never sleep, speed is more than entertainment — it’s power.</p> 
+            <p>Megacorporations rule the skyline, controlling every system… except the underground racing network known as <strong>Neon Drift</strong>.</p> 
+            <p>You are a rogue driver, rising through illegal street circuits where reputation is earned in milliseconds and lost in a single mistake. 
+            Every race is a message, every drift a signature — a challenge to those who believe the city can be controlled.</p>
+            <p>But the deeper you climb, the more the system begins to notice.</p>
+            <p>Drones start watching. Tracks become more dangerous. Rivals disappear.</p>
+            <p>What began as a race for dominance becomes something bigger — a fight to stay free in a city that was never meant to be escaped.</p>
+          </section>
+
+          <section class="modal-gameplay">
+            <h3>Gameplay / Core Mechanics</h3>
+            <ul class="gameplay-features">
+              <li>Fluid drifting system with responsive controls</li>
+              <li>Increasing speed intensity the longer you survive</li>
+              <li>Dynamic obstacles and traffic patterns</li>
+              <li>Score multiplier system based on drift chains and near misses</li>
+            </ul>
+          </section>
+
+          <section class="modal-experience">
+            <h3>Player Experience</h3>
+            <p>You are not just racing — you are flowing through the city. Every drift, every narrow escape, and every boost builds your momentum and pushes you closer to mastering the streets.</p>
+          </section>
+
+          <section class="modal-features">
+            <h3>Key Features</h3>
+            <ul class="key-features">
+              <li>Endless arcade racing mode</li>
+              <li>Synthwave-inspired visuals and atmosphere</li>
+              <li>Progressive difficulty scaling</li>
+              <li>Competitive high-score system</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!--Echoes of Titan-->
+    <div class="modal-overlay" id="modal-echoes-of-titan" role="dialog" aria-modal="true" aria-labelledby="modal-echoes-of-titan-title" tabindex="-1" hidden>
+      <div class="modal">
+        <button class="close-modal" aria-label="Close modal">&times;</button>
+
+        <div class="modal-content">
+          <h2 id="modal-echoes-of-titan-title">Echoes of Titan</h2>
+          <p class="modal-tagline">Discover what was never meant to be found.</p>
+          
+          <div class="modal-overview">
+            <img src="./resources/games/Games-screenshots/Echoes-of-titan-battle.jpg" alt="Futuristic battle on an alien world in Echoes of Titan">
+          </div>
+          
+          <div class="game-meta">
+            <p><strong>Genre:</strong> Sci-Fi Exploration / Adventure / Puzzle</p>
+            <p><strong>Platform:</strong> PC (Steam), PlayStation, Xbox</p>
+            <p><strong>Status:</strong> Released</p>
+          </div>
+
+          <section class="modal-story">
+            <h3>Story</h3>
+            <p>On a distant, abandoned planet, a forgotten past lies buried beneath silence.</p> 
+            <p>You are part of a deep-space expedition sent to investigate unusual signals detected across the planet’s surface. 
+              What was expected to be a routine survey quickly turns into something far more complex.</p> 
+            <p>Scattered across the landscape are remnants of an ancient civilization — structures that defy logic, 
+              machines that still function without explanation, and fragments of knowledge left behind.</p>
+            <p>As you explore deeper, you begin to uncover patterns, systems, and technologies that suggest this world was not simply abandoned… but deliberately left behind.</p>
+            <p>Every discovery brings you closer to understanding what happened here — and why it may have been meant to stay hidden.</p>
+          </section>
+
+          <section class="modal-gameplay">
+            <h3>Gameplay / Core Mechanics</h3>
+            <ul class="gameplay-features">
+              <li>Exploration-driven gameplay with environmental storytelling</li>
+              <li>Puzzle-solving using ancient alien technology</li>
+              <li>Signal tracking and decoding mechanics</li>
+              <li>Atmospheric navigation with limited resources</li>
+            </ul>
+          </section>
+
+          <section class="modal-experience">
+            <h3>Player Experience</h3>
+            <p>You are a lone explorer, sent to investigate anomalies detected beneath Titan’s surface. Isolation is constant, and every discovery deepens the mystery. 
+              The world doesn’t guide you — it challenges you to understand it.</p>
+          </section>
+
+          <section class="modal-features">
+            <h3>Key Features</h3>
+            <ul class="key-features">
+              <li>Immersive sci-fi narrative experience</li>
+              <li>Open-ended exploration on an alien moon</li>
+              <li>Dynamic sound design and ambient storytelling</li>
+              <li>Mystery-driven progression system</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!--Forestbound-->
+    <div class="modal-overlay" id="modal-forestbound" role="dialog" aria-modal="true" aria-labelledby="modal-forestbound-title" tabindex="-1" hidden>
+      <div class="modal">
+        <button class="close-modal" aria-label="Close modal">&times;</button>
+
+        <div class="modal-content">
+          <h2 id="modal-forestbound-title">Forestbound</h2>
+          <p class="modal-tagline">Follow the path. Discover the magic.</p>
+          
+          <div class="modal-overview">
+            <img src="./resources/games/Games-screenshots/Forestbound-exploration.jpg" alt="Exploring enchanted forests and ancient puzzles in Forestbound">
+          </div>
+          
+          <div class="game-meta">
+            <p><strong>Genre:</strong> Cozy Puzzle / Adventure</p>
+            <p><strong>Platform:</strong> PC (Steam), PlayStation, Xbox</p>
+            <p><strong>Status:</strong> Released</p>
+          </div>
+
+          <section class="modal-story">
+            <h3>Story</h3>
+            <p>Drawn by whispers of a forgotten path, you enter a forest unlike any other.</p> 
+            <p>Here, the trees seem to watch, the light dances between branches, and small creatures move just beyond sight. 
+            Scattered throughout the woods are traces of those who came before — travelers who followed the same quiet call.</p> 
+            <p>As you wander deeper, the forest begins to reveal itself through hidden paths, subtle signs, 
+              and moments of quiet magic. Nothing is forced, nothing is explained — only discovered.</p>
+            <p>And perhaps, by the time you reach the heart of the forest, you will understand why it called you here.</p>
+          </section>
+
+          <section class="modal-gameplay">
+            <h3>Gameplay / Core Mechanics</h3>
+            <ul class="gameplay-features">
+              <li>Light puzzle-solving integrated into exploration</li>
+              <li>Interaction with magical creatures and forest spirits</li>
+              <li>Unlocking hidden paths and secret areas</li>
+              <li>Relaxed, non-combat progression</li>
+            </ul>
+          </section>
+
+          <section class="modal-experience">
+            <h3>Player Experience</h3>
+            <p>You are a quiet traveler drawn into a mystical forest where every corner holds a small wonder.
+             There is no rush — only the joy of discovery, connection, and unraveling the forest’s gentle secrets.</p>
+          </section>
+
+          <section class="modal-features">
+            <h3>Key Features</h3>
+            <ul class="key-features">
+              <li>Cozy and relaxing gameplay experience</li>
+              <li>Handcrafted magical environments</li>
+              <li>Exploration-driven progression</li>
+              <li>Calm, immersive atmosphere</li>
+            </ul>
+          </section>
+        </div> 
+      </div>
+    </div>
+
+    <!-- ✅ MODALS Section:News -->
+      <!--Eclipse Realm Trailer-->
+      <div class="modal-overlay" id="modal-eclipse-trailer" role="dialog" aria-modal="true" aria-labelledby="modal-eclipse-trailer-title" aria-describedby="modal-eclipse-trailer-description" tabindex="-1" hidden>
+        <div class="modal">
+          <button class="close-modal" aria-label="Close modal">&times;</button>
+  
+          <div class="modal-content">
+            <h2 id="modal-eclipse-trailer-title">Eclipse Realm Gameplay Reveal</h2>
+            <p class="modal-tagline" id="modal-eclipse-trailer-description">The world is collapsing. An ancient force awakens.</p>
+
+            <section class="modal-description">
+              <p>Eclipse Realm is a dark fantasy RPG set in a fractured kingdom where the balance between light and shadow has been broken.</p> 
+              <p>In this first gameplay reveal, players step into a world shaped by decay and mystery
+               — where ruined cities, corrupted lands, and forgotten powers define the journey ahead.</p> 
+              <p>Every encounter brings you closer to uncovering the truth behind the eclipse.</p>
+            </section>
+
+            <figure class="modal-overview">
+              <img src="./resources/videos/trailer_scenes/full-scene.jpg" alt="Eclipse Realm gameplay scenes showing ruined environments">
+              <figcaption>Scenes captured from the official gameplay reveal.</figcaption>
+            </figure>
+
+            <section class="modal-experience">
+              <h3>A World in Ruin</h3>
+              <p>
+                From burning horizons to abandoned strongholds, Eclipse Realm immerses players in a world where every location tells a story. 
+                The environment is not just a backdrop — it is a living force shaped by conflict, loss, and the rise of something unknown.
+              </p>
+            </section>
+
+            <section class="modal-features">
+              <h3>Key Features</h3>
+              <ul class="key-features">
+                <li>Cinematic, high-impact melee combat</li>
+                <li>A haunting and immersive dark fantasy world</li>
+                <li>Exploration of ancient ruins and fallen kingdoms</li>
+                <li>Story-driven progression with deep lore</li>
+              </ul>
+            </section>
+
+            <div class="modal-actions">
+              <a href="#eclipse-realm" class="button btn-primary modal-jump-link">Explore the Game</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Neon Drift New Update-->
+      <div class="modal-overlay" id="modal-neon-drift-update" role="dialog" aria-modal="true" aria-labelledby="modal-neon-drift-update-title" aria-describedby="modal-neon-drift-update-description" tabindex="-1" hidden>
+        <div class="modal">
+          <button class="close-modal" aria-label="Close modal">&times;</button>
+  
+          <div class="modal-content">
+            <h2 id="modal-neon-drift-update-title">Neon Drift Update 1.2</h2>
+            <p class="modal-tagline" id="modal-neon-drift-update-description">A new wave of speed hits the streets.</p>
+
+            <section class="modal-description">
+              <p>Update 1.2 brings new content and gameplay improvements designed to enhance speed, control, and visual intensity across every race.</p> 
+            </section>
+
+            <figure class="modal-overview">
+              <img src="./resources/games/Games-screenshots/Neon-Drift-update1-2.jpg" alt="Neon Drift car drifting on a neon-lit track during Update 1.2">
+              <figcaption>Preview of the latest Neon Drift update features.</figcaption>
+            </figure>
+
+            <section class="modal-experience">
+              <h3>Update Highlights</h3>
+
+              <div class="update-group">
+                <h4>Tracks</h4>
+                <ul class="update-features">
+                  <li>Added new circuit with dynamic lighting zones</li>
+                  <li>Improved track flow for smoother racing experience</li>
+                </ul>
+              </div>
+              
+              <div class="update-group">
+                <h4>Gameplay</h4>
+                <ul class="update-features">
+                  <li>Refined drift handling for better control at high speed</li>
+                  <li>Adjusted collision response for improved realism</li>
+                </ul>
+              </div>
+              
+              <div class="update-group">
+                <h4>Visuals</h4>
+                <ul class="update-features">
+                  <li>Upgraded lighting system across all tracks</li>
+                  <li>Enhanced reflections and neon effects</li>
+                </ul>
+              </div>
+            </section>
+
+            <div class="modal-actions">
+              <a href="#neon-drift" class="button btn-primary modal-jump-link">Play Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Aetherfall Announcement-->
+      <div class="modal-overlay" id="modal-aetherfall" role="dialog" aria-modal="true" aria-labelledby="modal-aetherfall-title" aria-describedby="modal-aetherfall-description" tabindex="-1" hidden>
+        <div class="modal">
+          <button class="close-modal" aria-label="Close modal">&times;</button>
+  
+          <div class="modal-content">
+            <h2 id="modal-aetherfall-title">Aetherfall Announced</h2>
+            <p class="modal-tagline" id="modal-aetherfall-description">A shattered world floats above the clouds, waiting to be explored.</p>
+
+            <section class="modal-description">
+              <p>Aetherfall is a story-driven fantasy adventure set across a breathtaking realm of floating islands, ancient ruins, and forgotten civilizations.</p>
+              <p>Players will journey through a world shaped by mystery and loss, where hidden powers, lost knowledge, and the remnants of a fallen age lie scattered across the skies.</p>
+            </section>
+
+            <figure class="modal-overview">
+              <img src="./resources/games/Games-screenshots/Aetherfall-screenshots.jpg" alt="Promotional artwork for Aetherfall showing floating islands and ancient ruins">
+              <figcaption>First glimpse of the floating world of Aetherfall.</figcaption>
+            </figure>
+
+            <section class="modal-experience">
+              <h3>A World Above the Abyss</h3>
+              <p>From drifting islands and ruined arches to distant citadels suspended in the sky, Aetherfall invites players into a world shaped by exploration and discovery.</p>
+              <p>Every path leads toward forgotten history, hidden secrets, and the promise of uncovering what caused the world to break apart.</p>
+            </section>
+
+            <section class="modal-features">
+              <h3>Key Features</h3>
+              <ul class="key-features">
+                <li>Exploration across vast floating islands</li>
+                <li>Story-driven adventure with rich worldbuilding</li>
+                <li>Ancient ruins, relics, and hidden secrets</li>
+                <li>A mysterious fantasy world shaped by lost civilizations</li>
+              </ul>
+            </section>
+
+            <div class="modal-actions">
+              <a href="#aetherfall" class="button btn-primary modal-jump-link">Discover Aetherfall</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  <script defer src="main.js"></script>  
   </body>
 </html>
