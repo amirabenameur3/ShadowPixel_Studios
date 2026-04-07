@@ -5,16 +5,17 @@
 <h1 align="center">🎮 ShadowPixel Studios</h1>
 
 <p align="center">
-A fictional game studio website designed and developed <b>from scratch</b> as a front-end portfolio project.
+A fictional game studio website designed and developed <b>from scratch</b> as a modern front-end portfolio project.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/HTML5-Structure-E34F26?logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/Flexbox-Layout-blue">
+  <img src="https://img.shields.io/badge/JavaScript-Interactivity-F7DF1E?logo=javascript&logoColor=black">
   <img src="https://img.shields.io/badge/Responsive-Design-38bdf8">
+  <img src="https://img.shields.io/badge/Accessibility-ARIA-purple">
   <img src="https://img.shields.io/badge/GitHub-Project-181717?logo=github">
-  <img src="https://img.shields.io/badge/Status-Portfolio%20Project-purple">
+  <img src="https://img.shields.io/badge/Status-Active%20Development-success">
 </p>
 
 <p align="center">
@@ -35,6 +36,7 @@ A fictional game studio website designed and developed <b>from scratch</b> as a 
 - [📖 About the Project](#-about-the-project)
 - [🌐 Live Demo](#-live-demo)
 - [✨ Features](#-features)
+- [⚙️ JavaScript Features](#️-javascript-features)
 - [🛠 Built With](#-built-with)
 - [📸 Screenshots](#-screenshots)
 - [📂 Project Structure](#-project-structure)
@@ -49,18 +51,19 @@ A fictional game studio website designed and developed <b>from scratch</b> as a 
 
 ## 📖 About the Project
 
-**ShadowPixel Studios** is a fictional indie game studio website created as a **front-end portfolio project**.
+**ShadowPixel Studios** is a fictional indie game studio website built as a **front-end portfolio project**.
 
-The goal of this project was to design and develop a complete website from scratch that simulates the online presence of a game development studio.
+The goal was to simulate a **real-world production website**, combining design, structure, and interactivity.
 
-The website includes several sections commonly found on studio websites such as:
+The website includes:
 
-- studio mission
-- featured games
-- team members
-- news updates
+- studio presentation
+- game showcases
+- interactive modals
+- news system
+- responsive navigation
 
-This project focuses on practicing modern **front-end development techniques**, including semantic HTML structure, responsive layouts, and clean project organization.
+This project evolved from a static layout into a **fully interactive front-end experience using JavaScript**.
 
 ---
 
@@ -70,20 +73,52 @@ You can explore the live version of the website here:
 
 👉 https://amirabenameur3.github.io/ShadowPixel_Studios/
 
-The website is deployed using **GitHub Pages**.
+Deployed with **GitHub Pages**
 
 ---
 
 ## ✨ Features
 
-- 🎮 **Hero section** introducing the studio
-- 📖 **Mission / About section** presenting the studio vision
-- 🕹 **Games showcase section**
-- 👥 **Team presentation section**
-- 📰 **News and updates section**
-- 📱 **Responsive design** for multiple screen sizes
-- 🎨 Modern styling using **CSS variables**
-- ⚡ Lightweight **static website structure**
+- 🎮 Hero section with strong visual identity  
+- 📖 About / Mission section  
+- 🕹 Games showcase with interactive cards  
+- 📰 News section linked to game content  
+- 👥 Team section  
+- 🎨 Modern UI (glassmorphism, gradients, shadows)  
+- 📱 Fully responsive layout  
+- ⚡ Smooth animations and transitions 
+
+---
+
+## ⚙️ JavaScript Features
+
+This project now includes **custom JavaScript functionality**:
+
+### 📱 Mobile Navigation
+- Toggle menu (open/close)
+- Click outside to close
+- ESC key support
+- Dynamic icon switching (☰ / ✖)
+- `aria-expanded` accessibility support
+
+### 🪟 Modal System (Core Feature)
+- Reusable modal logic for multiple games
+- Open/close with buttons
+- Close on:
+  - outside click
+  - ESC key
+- Focus management for accessibility
+- Prevent background interaction
+
+### 🎯 Scroll Reveal Animation
+- Elements animate into view on scroll
+- Uses `IntersectionObserver`
+- Smooth fade + translate effect
+
+### ♿ Accessibility Enhancements
+- Focus trapping inside modals
+- Keyboard navigation support
+- Semantic roles and ARIA attributes
 
 ---
 
@@ -93,12 +128,11 @@ This project was developed using:
 
 - **HTML5**
 - **CSS3**
-- **Flexbox**
-- **CSS Grid**
-- **Responsive Design**
+- **Flexbox & Grid**
+- **JavaScript (Vanilla)**
 - **Google Fonts**
-- **Git**
-- **GitHub**
+- **Git & GitHub**
+- **GitHub Pages**
 
 ---
 
@@ -115,13 +149,7 @@ This project was developed using:
 ### Home Page
 
 <p align="center">
-  <img src="./docs/ShadowPixel_Studios_Preview.png" width="850" alt="Home Page Screenshot">
-</p>
-
-### Mission Section
-
-<p align="center">
-  <img src="./docs/mission.png" width="850" alt="Mission Section Screenshot">
+  <img src="./docs/ShadowPixel-Studios-Preview.png" width="850" alt="Home Page Screenshot">
 </p>
 
 ### Games Section
@@ -130,16 +158,10 @@ This project was developed using:
   <img src="./docs/games.png" width="850" alt="Games Section Screenshot">
 </p>
 
-### Team Section
+### Modal Section
 
 <p align="center">
-  <img src="./docs/team.png" width="850" alt="Team Section Screenshot">
-</p>
-
-### News Section
-
-<p align="center">
-  <img src="./docs/news.png" width="850" alt="News Section Screenshot">
+  <img src="./docs/modal.png" width="850" alt="Team Section Screenshot">
 </p>
 
 ### Mobile Layout
@@ -153,15 +175,15 @@ This project was developed using:
 ## 📂 Project Structure
 
 ```
-PixelShadows_Studios
+ShadowPixel_Studios
 │
 ├── docs
+│   ├── ShadowPixel_Studios_Preview.png
 │   ├── demo.gif
 │   ├── games.png
 │   ├── mission.png
 │   ├── mobile.png
 │   ├── news.png
-│   ├── ShadowPixel_Studios.png
 │   └── team.png
 │
 ├── resources
@@ -172,8 +194,12 @@ PixelShadows_Studios
 │   ├── team
 │   └── videos
 │
-├── favicon_shadowpixel.ico
 ├── index.html
+├── press-kit.html
+├── privacy.html
+├── terms.html
+├── main.js
+├── favicon_shadowpixel.ico
 └── README.md
 ```
 
@@ -181,88 +207,67 @@ PixelShadows_Studios
 
 ## 📱 Responsive Design
 
-The website was designed to adapt to different screen sizes using responsive design techniques.
-
-Main strategies used:
-
-- **Flexible layouts** built with Flexbox
-- **Relative units** such as `rem`, `%`, and `vw`
-- **Media queries** to adjust layout for smaller screens
-- Responsive images and scalable typography
-
-The layout automatically adapts for:
-
-- Desktop screens
-- Tablets
-- Mobile devices
+- Mobile-first improvements
+- Flexible layouts (Flexbox & Grid)
+- Media queries for breakpoints
+- Scalable typography (`clamp`, `rem`)
+- Optimized images and spacing
 
 ---
 
 ## 🚀 Deployment
 
-The project is deployed using **GitHub Pages**.
+Deployed using **GitHub Pages**
 
-Steps used to deploy the website:
+Steps:
 
-1. Push the project to a GitHub repository
-2. Open the repository **Settings**
-3. Navigate to **Pages**
-4. Select the deployment branch (usually `main`)
-5. GitHub automatically publishes the website
-
-Live website:
-
-https://amirabenameur3.github.io/ShadowPixel_Studios/
+1. Push to GitHub
+2. Go to **Settings → Pages**
+3. Select branch (`main`)
+4. Website is automatically published
 
 ---
 
 ## 🧠 What I Learned
 
-Through this project I improved my understanding of:
-
-- building a website **entirely from scratch**
-- structuring content using **semantic HTML**
-- designing layouts with **Flexbox**
-- implementing **responsive design techniques**
-- organizing a **real-world project folder structure**
-- managing version control with **Git and GitHub**
-- deploying a website using **GitHub Pages**
+- Structuring a **real-world front-end project**
+- Writing **clean and modular JavaScript**
+- Building a **reusable modal system**
+- Implementing **accessibility best practices**
+- Managing **UI state and interactions**
+- Using **Git branches and version control**
+- Debugging real UI/UX issues
 
 ---
 
 ## 🚧 Future Improvements
 
-Possible future enhancements include:
-
-- adding **JavaScript interactivity**
-- implementing a **mobile hamburger navigation menu**
-- adding **animations and transitions**
-- embedding **game trailers or promotional videos**
-- creating a **contact form**
-- improving **accessibility and keyboard navigation**
+- Add **dynamic content (API integration)**
+- Improve **animations with GSAP or Framer Motion**
+- Add **dark/light theme toggle**
+- Create a **contact form with validation**
+- Enhance **performance optimization**
+- Expand into a **React version**
 
 ---
 
 ## 👩‍💻 Author
 
-**Amira Ben Ameur**
-
+**Amira Ben Ameur**  
 PhD Researcher in Structural & Transportation Engineering  
-Front-End Development Enthusiast
+Front-End Developer (in progress 🚀)
 
-GitHub  
+GitHub:  
 https://github.com/amirabenameur3
 
 ---
 
 ## 📌 Disclaimer
 
-This website represents a **fictional game studio** created for **learning and portfolio purposes**.
-
-It does **not represent a real company or brand**.
+This project represents a **fictional game studio** created for **portfolio and learning purposes only**.
 
 ---
 
 ## ⭐ If you like the project
 
-Consider giving the repository a **star on GitHub** ⭐
+Consider giving it a **star on GitHub** ⭐
