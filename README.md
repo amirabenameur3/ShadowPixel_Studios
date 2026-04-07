@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/ShadowPixel_Studios_Preview.png" width="900" alt="ShadowPixel Studios preview">
+  <img src="./docs/ShadowPixel-Studios-Preview.png" width="900" alt="ShadowPixel Studios preview">
 </p>
 
 <h1 align="center">🎮 ShadowPixel Studios</h1>
